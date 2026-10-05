@@ -1,0 +1,9 @@
+dangerous:
+  - pattern: "Выполнить\\("
+    severity: critical
+  - pattern: "Вычислить\\("
+    severity: critical
+  - pattern: "ЗаписьЖурналаРегистрации"
+    severity: low
+  - pattern: "СоздатьCOMОбъект"
+    severity: high
